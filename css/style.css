@@ -1200,7 +1200,7 @@ a {
   top: calc(50% - 16px);
   width: 30px;
   height: 30px;
-  background-image: url("/img/icon-check.svg");
+  background-image: url("../img/icon-check.svg");
   background-repeat: no-repeat;
   background-size: 30px;
 }
