@@ -505,6 +505,16 @@ a {
 
 /*===========================================================================*/
 
+/*================================= Большой =================================*/
+
+.container-outer {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*===========================================================================*/
+
 /*================================= TITLE ===================================*/
 
 .title {
@@ -1468,39 +1478,6 @@ a {
   line-height: 18.8px;
 }
 
-.price__td,
-.price__th {
-  width: 20%;
-  text-align: center;
-  padding: 22px 0 21px 0;
-  border: 1px solid rgb(236, 246, 253);
-  border-radius: 16px;
-}
-
-.price td:first-child,
-.price th:first-child {
-  padding-left: 82px;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21.1px;
-}
-
-.price td:nth-child(2),
-.price th:nth-child(2) {
-  padding-left: 66px;
-}
-
-.price td:nth-child(3),
-.price th:nth-child(3) {
-  padding-left: 46px;
-}
-
-.price td:nth-child(4),
-.price th:nth-child(4) {
-  padding-left: 22px;
-}
-
 .price__thead {
   padding: 21px 0;
   font-size: 18px;
@@ -1512,21 +1489,50 @@ a {
           box-shadow: 0px 4px 4px 0px rgba(141, 149, 165, 0.1);
 }
 
-.price__thead th {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 18.8px;
+.price__td,
+.price__th {
+  width: 20%;
+  text-align: center;
+  padding: 22px 0 21px 0;
+  border: 1px solid rgb(236, 246, 253);
+  border-radius: 16px;
 }
 
-.price__thead td:first-child {
+.price__td:first-child,
+.price__th:first-child {
+  padding-left: 82px;
+  text-align: left;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.1px;
 }
 
-/*---------------------------------------------------------------------------*/
+.price__td:nth-child(2),
+.price__th:nth-child(2) {
+  padding-left: 66px;
+}
 
-/*----------------------------- max-width: 1599px ---------------------------*/
+.price__td:nth-child(3),
+.price__th:nth-child(3) {
+  padding-left: 46px;
+}
+
+.price__td:nth-child(4),
+.price__th:nth-child(4) {
+  padding-left: 22px;
+}
+
+.price__th {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.8px;
+}
+
+.price__td:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.1px;
+}
 
 /*---------------------------------------------------------------------------*/
 
@@ -1543,6 +1549,8 @@ a {
 /*---------------------------------------------------------------------------*/
 
 /*----------------------------- max-width: 479px ----------------------------*/
+
+/*===========================================================================*/
 
 /*============================== PRESENTATION ===============================*/
 
@@ -1826,14 +1834,6 @@ a {
 
 /*===========================================================================*/
 
-@media (max-width: 1599px) {
-  .price__square {
-    position: absolute;
-    top: -50px;
-    right: 0px;
-  }
-}
-
 @media (max-width: 1441px) {
   .promo {
     /* Большое кольцо */
@@ -1961,18 +1961,9 @@ a {
     margin-top: 40px;
   }
 
-  .price td:first-child,
-  .price th:first-child {
+  .price__td:first-child,
+  .price__th:first-child {
     padding-left: 30px;
-  }
-
-  .price td:nth-child(2),
-  .price th:nth-child(2),
-  .price td:nth-child(3),
-  .price th:nth-child(3),
-  .price td:nth-child(4),
-  .price th:nth-child(4) {
-    padding-left: 0;
   }
 
   .presentation__inner {
@@ -2264,7 +2255,8 @@ a {
   }
 
   .price__square {
-    top: 20px;
+    top: 0px;
+    right: -50px;
     width: 150px;
     height: 150px;
   }
@@ -2275,14 +2267,13 @@ a {
     line-height: 16px;
   }
 
-  .price__td,
-  .price__th {
-    width: 20%;
+  .price__td:nth-child(n),
+  .price__th:nth-child(n) {
     padding: 16px 0;
   }
 
-  .price td:first-child,
-  .price th:first-child {
+  .price__td:first-child,
+  .price__th:first-child {
     width: 25%;
     padding-left: 20px;
     font-size: 16px;
@@ -2599,24 +2590,24 @@ a {
     line-height: 14px;
   }
 
-  .price__table thead {
+  .price__thead {
     display: none;
   }
 
-  .price__table tr {
+  .price__tr {
     display: block;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #e8e9eb;
+    margin-bottom: 8px;
+    border-bottom: 4px solid #e8e9eb;
     padding: 0 20px;
   }
 
-  .price td:first-child,
-  .price th:first-child {
+  .price__td:first-child,
+  .price__th:first-child {
     width: 100%;
     padding-left: 0;
   }
 
-  .price__table td {
+  .price__td {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2624,17 +2615,19 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
+    border-top: 1px solid rgb(236, 246, 253);
+    border-radius: 0;
   }
 
-  .price__table td:before {
+  .price__td:before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
   }
 
-  .price__table td:nth-child(1) {
-    width: 100%;
+  .price__td:nth-child(1) {
     color: rgb(5, 134, 232);
+    border: none;
   }
 
   .footer__copyright {
