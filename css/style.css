@@ -2426,6 +2426,10 @@ a {
     font-size: 14px;
   }
 
+  .promo__list {
+    margin: 0 10px;
+  }
+
   .promo__item {
     font-size: 12px;
   }
