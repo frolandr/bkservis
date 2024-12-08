@@ -2055,7 +2055,7 @@ a {
   }
 
   .promo__title::after {
-    top: 76px;
+    top: 70px;
     width: 70px;
   }
 
@@ -2414,6 +2414,10 @@ a {
     font-size: 20px;
   }
 
+  .promo__title::after {
+    top: 64px;
+  }
+
   .promo__subtitle {
     font-size: 14px;
   }
@@ -2618,7 +2622,7 @@ a {
   }
 
   .promo__title::after {
-    top: 96px;
+    top: 84px;
     width: 70px;
   }
 
