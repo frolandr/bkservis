@@ -452,7 +452,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.44px;
+  line-height: 1.174;
   font-variant-numeric: lining-nums;
   font-feature-settings: "lnum";
   -moz-font-feature-settings: "lnum=1";
@@ -521,7 +521,7 @@ a {
   position: relative;
   font-size: 30px;
   font-weight: 800;
-  line-height: 35.22px;
+  line-height: 1.174;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -595,7 +595,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18.5px;
+  line-height: 1.174;
   color: rgb(255, 255, 255);
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -640,7 +640,7 @@ a {
   max-width: 156px;
   margin-left: 20px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.174;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -692,7 +692,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14.6px;
+  line-height: 1.2;
   color: rgb(196, 196, 196);
 }
 
@@ -768,15 +768,13 @@ a {
 .phone__number {
   font-size: 18px;
   font-weight: 700;
-  line-height: 21.13px;
-  text-decoration: none;
+  line-height: 1.174;
 }
 
 .phone__call {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
-  text-decoration: none;
+  line-height: 1.174;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -840,7 +838,7 @@ a {
   position: relative;
   font-size: 30px;
   font-weight: 800;
-  line-height: 35.22px;
+  line-height: 1.174;
   letter-spacing: 0.02em;
 }
 
@@ -863,13 +861,13 @@ a {
   margin-top: 34px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.174;
 }
 
 .promo__subtitle--bold {
   font-size: 18px;
   font-weight: 700;
-  line-height: 21.1px;
+  line-height: 1.174;
   letter-spacing: -0.1px;
 }
 
@@ -885,9 +883,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.44px;
 }
 
 .promo__icon {
@@ -1065,7 +1060,7 @@ a {
 .discount__txt--small {
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.174;
 }
 
 .discount__agreement {
@@ -1074,7 +1069,7 @@ a {
   position: relative;
   font-size: 12px;
   font-weight: 300;
-  line-height: 14.4px;
+  line-height: 1.2;
   letter-spacing: -0.02;
   color: rgb(101, 101, 101);
   opacity: 0.7;
@@ -1110,41 +1105,41 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174;
 }
 
 .discount__input::-webkit-input-placeholder {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174px;
   color: rgb(0, 0, 0);
 }
 
 .discount__input::-moz-placeholder {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174px;
   color: rgb(0, 0, 0);
 }
 
 .discount__input:-ms-input-placeholder {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174px;
   color: rgb(0, 0, 0);
 }
 
 .discount__input::-ms-input-placeholder {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174px;
   color: rgb(0, 0, 0);
 }
 
 .discount__input::placeholder {
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.5px;
+  line-height: 1.174px;
   color: rgb(0, 0, 0);
 }
 
@@ -1196,7 +1191,7 @@ a {
   padding: 21px 20px 19px 66px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 18.8px;
+  line-height: 1.174;
   background: rgb(255, 255, 255);
   border-radius: 16px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(141, 149, 165, 0.2);
@@ -1353,7 +1348,7 @@ a {
   display: block;
   font-size: 16px;
   font-weight: 600;
-  line-height: 18.8px;
+  line-height: 1.174;
   text-align: center;
 }
 
@@ -1363,7 +1358,7 @@ a {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  line-height: 23.5px;
+  line-height: 1.174;
   text-align: center;
   color: rgb(5, 134, 232);
 }
@@ -1475,14 +1470,14 @@ a {
   background: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
-  line-height: 18.8px;
+  line-height: 1.174;
 }
 
 .price__thead {
   padding: 21px 0;
   font-size: 18px;
   font-weight: 600;
-  line-height: 21.1px;
+  line-height: 1.174;
   color: rgb(5, 134, 232);
   border-radius: 16px;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(141, 149, 165, 0.1);
@@ -1504,7 +1499,7 @@ a {
   text-align: left;
   font-size: 18px;
   font-weight: 600;
-  line-height: 21.1px;
+  line-height: 1.174;
 }
 
 .price__td:nth-child(2),
@@ -1525,13 +1520,13 @@ a {
 .price__th {
   font-size: 16px;
   font-weight: 600;
-  line-height: 18.8px;
+  line-height: 1.174;
 }
 
 .price__td:first-child {
   font-size: 18px;
   font-weight: 600;
-  line-height: 21.1px;
+  line-height: 1.174;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -1676,30 +1671,29 @@ a {
   margin-top: 49px;
   font-size: 20px;
   font-weight: 700;
-  line-height: 23.5px;
+  line-height: 1.174;
   color: rgb(5, 134, 232);
 }
 
 .slider2__txt {
   width: 177px;
-  margin-top: 8px;
+  margin-top: 7px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 18.8px;
+  line-height: 1.174;
 }
 
 .slider2__list {
   width: 232px;
-  margin-top: 28.5px;
-  font-size: 13.3px;
+  margin-top: 30px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 16.3px;
+  line-height: 1.15;
   text-align: left;
 }
 
 .slider2__item {
   margin-bottom: 7.5px;
-  letter-spacing: 0.36px;
 }
 
 .slider2__pager {
@@ -1935,7 +1929,6 @@ a {
   .working__item {
     padding: 11px 10px 10px 40px;
     font-size: 14px;
-    line-height: 16.8px;
   }
 
   .working__item::before {
@@ -1991,7 +1984,6 @@ a {
 @media (max-width: 991px) {
   .title {
     font-size: 24px;
-    line-height: 28px;
   }
 
   .title::after {
@@ -2003,7 +1995,6 @@ a {
     width: 220px;
     padding: 12px 0 11px;
     font-size: 14px;
-    line-height: 17px;
   }
 
   .button--promo {
@@ -2061,7 +2052,6 @@ a {
 
   .promo__title {
     font-size: 24px;
-    line-height: 29px;
   }
 
   .promo__title::after {
@@ -2071,12 +2061,10 @@ a {
 
   .promo__subtitle {
     font-size: 16px;
-    line-height: 18px;
   }
 
   .promo__subtitle--bold {
     font-size: 16px;
-    line-height: 18px;
   }
 
   .promo__list {
@@ -2187,38 +2175,31 @@ a {
     margin-top: 0;
     padding: 12px 13px;
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-webkit-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-moz-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input:-ms-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-ms-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__txt {
     width: 100%;
     font-size: 18px;
-    line-height: 20px;
     text-align: center;
   }
 
@@ -2228,7 +2209,6 @@ a {
 
   .discount__txt--small {
     font-size: 14px;
-    line-height: 18px;
   }
 
   .discount__agreement {
@@ -2264,7 +2244,6 @@ a {
   .price__table {
     font-size: 14px;
     font-weight: 600;
-    line-height: 16px;
   }
 
   .price__td:nth-child(n),
@@ -2278,7 +2257,6 @@ a {
     padding-left: 20px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 18px;
   }
 
   .footer {
@@ -2352,31 +2330,24 @@ a {
     width: 100%;
     margin-top: 8px;
     font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
   }
 
   .slider2__txt {
     width: 100%;
     margin-top: 6px;
     font-size: 14px;
-    font-weight: 600;
-    line-height: 16px;
   }
 
   .slider2__list {
     width: 100%;
     margin-top: 16px;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
   }
 }
 
 @media (max-width: 639px) {
   .title {
     font-size: 20px;
-    line-height: 24px;
   }
 
   .title::after {
@@ -2399,7 +2370,6 @@ a {
     max-width: 138px;
     margin-left: auto;
     font-size: 10px;
-    line-height: 12px;
   }
 
   .social--footer {
@@ -2429,12 +2399,10 @@ a {
 
   .phone__number {
     font-size: 14px;
-    line-height: 16px;
   }
 
   .phone__call {
     font-size: 12px;
-    line-height: 14px;
   }
 
   .promo__inner {
@@ -2448,17 +2416,14 @@ a {
 
   .promo__subtitle {
     font-size: 14px;
-    line-height: 16px;
   }
 
   .promo__subtitle--bold {
     font-size: 14px;
-    line-height: 16px;
   }
 
   .promo__item {
     font-size: 12px;
-    line-height: 14px;
   }
 
   .promo__icon {
@@ -2519,42 +2484,39 @@ a {
     top: 110px;
   }
 
+  .discount::after {
+    display: none;
+  }
+
   .discount__input {
     width: 220px;
     margin-top: 0;
     padding: 12px 13px;
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-webkit-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-moz-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input:-ms-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::-ms-input-placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__input::placeholder {
     font-size: 13px;
-    line-height: 16px;
   }
 
   .discount__txt {
     font-size: 16px;
-    line-height: 18px;
   }
 
   .discount__txt--blue {
@@ -2563,12 +2525,10 @@ a {
 
   .discount__txt--small {
     font-size: 12px;
-    line-height: 16px;
   }
 
   .discount__agreement {
     font-size: 10px;
-    line-height: 12px;
   }
 
   .working__inner {
@@ -2587,7 +2547,6 @@ a {
   .working__item {
     width: 90%;
     font-size: 12px;
-    line-height: 14px;
   }
 
   .price__thead {
@@ -2665,7 +2624,6 @@ a {
 
   .discount__agreement {
     font-size: 8px;
-    line-height: 10px;
   }
 
   .technic__inner {
@@ -2692,13 +2650,11 @@ a {
   .slider1__txt {
     max-width: 160px;
     font-size: 12px;
-    line-height: 14px;
   }
 
   .slider1__price {
     display: block;
     font-size: 16px;
-    line-height: 20px;
   }
 
   .slider1__prev {
@@ -2742,19 +2698,16 @@ a {
 
   .slider2__header {
     font-size: 14px;
-    line-height: 16px;
   }
 
   .slider2__txt {
     margin-top: 5px;
     font-size: 13px;
-    line-height: 15px;
   }
 
   .slider2__list {
     margin-top: 10px;
     font-size: 10px;
-    line-height: 12px;
   }
 
   .slider2__prev {
